@@ -1,0 +1,16 @@
+{
+  "name": "electron-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "prestart": "npm run compile",
+    "start": "electron .",
+    "compile": "tsc -b && cp -r src/index.html build"
+  },
+  "author": "Ken Boyd",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^29.1.5"
+  }
+}

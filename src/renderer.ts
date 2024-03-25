@@ -1,0 +1,1 @@
+document.body.innerHTML += "WooHoo, it works!";
