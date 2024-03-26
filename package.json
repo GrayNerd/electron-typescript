@@ -1,5 +1,6 @@
 {
   "name": "electron-typescript",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
@@ -12,5 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^29.1.5"
+  },
+  "dependencies": {
+    "ol": "^9.1.0"
   }
 }
